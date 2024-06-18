@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+   height: 80px;
+    background-color:#FBC906;
+    color: rgb(7, 7, 70);
+    background-color: black;
+    color:white;
+    width: 100%;
+   
+}
+.navbar p{
+    margin-top:19px;
+    font-weight: 700;
+    font-style: "Playfair Display";
+    font-size: 20px;
+}
+
+.navbar p:hover{
+text-decoration: underline;
+}
+
+.logo{
+    background-image: url("logo.jpeg");
+    height:60px;
+    width:60px;
+    background-size: cover;
+    transform: scale(0.9);
+    margin-top: 0px;
+}
+
+.search{
+    display:flex;
+    margin-top:15px;
+}
+
+.search-bar{
+
+    border-style: solid;
+    border-color:white;
+    height:30px;
+    width:400px;
+    background-color: transparent;
+    color: white;
+}
+
+#search-icon{
+border-style: solid;
+border-color:white;
+border-right: none;
+height:30px;
+width:30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+::placeholder{
+    color: gray;
+    font-size: 17px;
+    border:none;
+    margin-left:5px;
+
+}
+
+.cName{
+  
+    font-size: 250px;
+    background: linear-gradient(to left,
+         violet,
+         red);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top:90px;
+    margin-left:50px;
+}
+
+.tagline{
+    /*font-family:"Playwrite ES";*/
+    font-size: 50px;
+    margin-left:70px;
+    background: linear-gradient(to left,
+    red,
+    purple);
+-webkit-background-clip: text;
+color: transparent;
+}
+
+.learn{
+    background-image: linear-gradient(to right,rgb(179, 37, 195) ,purple);
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 12px;
+    border-color:rgb(72, 21, 62);
+    margin-left:70px;
+    font-family: 'Times New Roman', Times, serif;
+  box-shadow: 0 8px 16px 0 rgba(249, 248, 248, 0.948), 0 6px 20px 0 rgba(220, 91, 229, 0.19);
+  color: white;
+    margin-top: 30px;  
+}
+#dove{
+margin-left: 20px;
+}
+.panel1{
+    display:flex;
+}
+.hero{
+    background-image: url("hero.svg");
+    background-size: cover;
+    height:700px;
+    width:990px;
+    margin-top: 90px;
+}
+
+.panel2{
+    display:flex;
+}
+
+.cd{
+    display:flex;
+    flex-direction: column;
+}
+.cd-icon{
+    background-image: url("cd.jpg");
+    background-size: cover;
+    height:450px;
+    width:420px;
+    transform: scale(0.5);
+    border-radius: 120px;
+  
+}
+
+.cd p{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    margin-left:20px;
+}
+
+.rd-icon{
+    background-image: url("rd.png");
+    background-size: cover;
+    height:450px;
+    width:450px;
+    transform: scale(0.5);
+    border-radius: 120px;
+  
+}
+
+.rd p{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    margin-left:20px;
+}
+
+.so-icon{
+    background-image: url("so.jpg");
+    background-size: cover;
+    height:450px;
+    width:450px;
+    transform: scale(0.5);
+    border-radius: 120px;
+  
+}
+
+.so p{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    margin-left:20px;
+}
+
+.ui-icon{
+    background-image: url("ui.webp");
+    background-size: cover;
+    height:450px;
+    width:450px;
+    transform: scale(0.5);
+    border-radius: 120px;
+  
+}
+
+.ui p{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    margin-left:20px;    
+}
+
+h2{
+    font-family: "Playwrite ES";
+    background-image: linear-gradient(to right,red,orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align:center;
+    margin-top: 20px;
+    
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    height: 200px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
